@@ -1,0 +1,47 @@
+.item-menu{
+  display: flex;
+  justify-content: center;
+}
+
+.description-item-menu{
+  background-color: #FFFFFF;
+  width: 220px;
+  height: 200px;
+  border-radius: 5px 5px 20px 0;
+
+}
+
+.ingredients{
+  margin-left: 70px;
+  margin-right: 2%;
+}
+
+.name-burguer{
+  font-size: 20px;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  color: #F88415;
+}
+
+
+.image-food{
+  margin-right: -120px;
+  margin-top: 80px;
+  display: flex;
+  /* background-color: #F88415; */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  height: 150px;
+  width: 300px;
+  z-index: 10;
+}
+
+.image-food > img{
+  width: 100%; /* Faz com que a imagem ocupe todo o espaço do container */
+  height: 100%;
+  object-fit: cover; /* Corta e ajusta a imagem sem distorcer */
+}
